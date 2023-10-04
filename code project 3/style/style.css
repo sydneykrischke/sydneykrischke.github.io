@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30pt;
+	color: white;
+	padding: 30pt;
+
+}
+
+body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	h2 {
+		font-size: 50px;
+		font-weight: bold;
+		font-weight: 600;
+	}
+
+
+ul {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #89CFF0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+	/* Box Model fix */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* ======================================= */
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear:both;
+}
+
+/* ======================================= */
+
+HOMEPAGE STYLE GOES NEXT
+/* ================================== */ 
+
+.background-video {
+  right: 0pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: center;
+}
+
+video{
+	margin-top: 52px;
+	position: relative;
+	width: 100%;
+	height:100vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.content {
+  bottom: 60pt;
+  color: #fff;
+  width: 100%;
+  padding: 110pt;
+  text-align: center;
+  position: absolute;
+	top: 60pt;
+	left: 0;
+	min-width: 0%;
+	min-height:0%;
+}
+
+	#hero h1 {
+		font-size: 74px;
+		text-transform: uppercase;
+		font-weight: 300;
+		display: block;
+		height: 50%;
+	}
+
+	#hero h1 span {
+		font-weight: 750;
+	}
+
+	#hero {
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+

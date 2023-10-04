@@ -1,0 +1,50 @@
+/* ==== CSS GRID FILE =======*/
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container-fluid .row {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+.col-1 {
+	width: 67.5px;
+	margin: 0 15px;
+}
+
+.col-4 {
+	float: left;
+	width: 360px;
+	margin: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
