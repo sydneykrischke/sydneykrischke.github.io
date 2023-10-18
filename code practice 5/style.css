@@ -1,0 +1,354 @@
+/**
+ * GLOBAL STYLING
+ */
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-color: #ffffff; /* soft pink */
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+	color: #242321;	
+}
+
+
+
+h2 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+a {
+	color: #242321; /* dark */
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #ffffff; /* dark orange */
+}
+
+/* HEADER STYLING */
+
+
+.col-4{
+margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 70px;	
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+  	padding: 0;
+	background-color: #FDB0C0; /* soft pink */
+	position: fixed;
+	 z-index: 2;
+}
+
+header .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header ul {
+	list-style: none;
+	margin: 10px 0 0 150px;
+	padding: 0;
+
+}
+
+header li {
+	float: right;
+	margin-right: 18px;
+}
+
+header .added-margin {
+	margin-top: 10px;
+}
+
+
+header li a {
+	color: #66625b; /* dark clay */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+header li a:hover {
+	color: #ffffff; /* white */
+}
+
+
+/* HOME PAGE STYLING */
+#jumbotron {
+	background-size: covpxer;
+	background-color: #FDB0C0;  
+	height: 820px;
+	overflow: hidden;
+}
+#jumbotron h1 {
+	margin-top: 300px;
+	margin-bottom: 300px;
+	margin-left: 280px;
+	font-family: Snell Roundhand, cursive;
+	color: #ffffff; /* white */
+	font-size: 150px;
+	font-weight: bolder;
+	position: absolute;
+	overflow: hidden;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+position: absolute;
+}
+.parent img{
+	padding-top: 60px;
+}
+
+ .parent img {
+    opacity: 0;
+    transition: 400s ease-out;
+  }
+
+ .parent img:hover {
+    opacity: 1;
+    transition: 0.5s;
+  } 
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 105px;
+  width: 500px;
+
+}
+
+.image2 {
+  position: absolute;
+  top: 10px;
+  left: 870px;
+  width: 250px;
+}
+
+.image3 {
+  position: absolute;
+  top: 0px;
+  left: 505px;
+  width: 430px;
+}
+
+.image4 {
+  position: absolute;
+  top: 170px;
+  left: 460px;
+  width: 700px;
+}
+
+.image5 {
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  width: 270px;
+}
+
+.image6 {
+  position: absolute;
+  top: 300px;
+  left: 1010px;
+  width: 300px;
+}
+
+.image7 {
+  position: absolute;
+  top: 190px;
+  left: 280px;
+   width: 320px;
+}
+
+.image8 {
+  position: absolute;
+  top: 340px;
+  left: 120px;
+  width: 320px;
+}
+
+.image9 {
+  position: absolute;
+  top: 470px;
+  left: 510px;
+  width: 380px;
+}
+
+.image10 {
+  position: absolute;
+  top: 440px;
+  left: 830px;
+  width: 250px;
+}
+
+
+
+
+#about-sophia .row {
+	margin-top: 150px;
+	margin-bottom: 100px;
+	color: #67625e;
+}
+
+
+#about-sophia h2 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-size: 70pt;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+	line-height: 80%;
+	color: #272121; 
+
+}
+
+#about-sophia p {
+	font-size: 12pt;
+	font-family: helvetica, sans-serif;
+	padding-left: 20px;
+}
+
+
+/* Simply works */
+
+#archive-book{
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.button {
+  background-color: #66625b;
+  border: none;
+  color: white;
+  font-family: helvetica, sans-serif;
+  border-radius: 10px;
+  font-style: lighter;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FDB0C0; 
+  color: white;
+}
+
+#buy-now {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#buy-now-header {
+	margin-bottom: 60px;
+}
+
+#buy-now-header p {
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-right: 210px;
+	padding-left: 210px;
+	line-height: 140%;
+}
+
+#buy-now h1 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	font-size: 50px;
+	color: #272121; /* dark clay */
+	text-transform: uppercase;
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#buy-now h2 {
+	color: #66625b;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: helvetica, sans-serif;
+}
+
+/* FOOTER STYLING */
+
+footer {
+	background-color: #f1f1f1;
+	font-size: 8pt;
+	padding-top: 10px;
+}
+
+footer .footer-bottom{
+	background-color: #66625b;
+}
+
+footer .footer-info{
+	color: #242321; 
+	padding-top: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	ont-family: helvetica, sans-serif;
+}
+
+footer li a:hover{
+	color: 
+}
+
+footer a i{
+	padding:5px;
+}
