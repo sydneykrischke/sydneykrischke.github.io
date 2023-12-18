@@ -1,0 +1,1063 @@
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* Micro clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+* { margin: 0; padding: 0; }
+
+/* Colors for website: 
+Dark Green #193C11
+Beige #EDEBE4
+Red #F1444C
+White #FFFFFF
+
+*/
+
+
+html {
+    height: 100%;
+}
+
+body {
+	font-family: SF Pro;
+	font-size: 25pt;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: Playfair display;
+	font-size: 60px;
+	margin: 1;
+}
+
+h2 {
+	font-family: Playfair display;
+	font-size: 36px;
+	margin: 0;
+}
+
+h3 {
+	font-family: Playfair display;
+	font-size: 28pt;
+	font-weight: 400;
+	margin: 0;
+}
+
+h4{
+	font-family: SF Pro;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+p {
+	font-family: SF Pro;
+	font-size: 16px;
+	font-weight: 340;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family:  SF Pro;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: #F1444C;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+
+
+
+/* Nav Bar */
+
+header {
+	background-color: #193C11;
+	color: #fff;
+	position: fixed;
+	height: 50px;
+	z-index: 4;
+	font-size: 0.45em;
+}
+
+header li {
+	float: left;
+	margin-left: 18px;
+}
+
+#logo a {
+	display: inline-block;
+	padding: 1rem;
+	max-width: 120px;
+	font-family: Playfair display;
+	font-size: 1em;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+/* Hero page */
+
+#hero {
+	background-image: url("../photos/hero.jpg");
+	background-size: 130%;
+	height: 100vh;
+	padding-top: 60px;
+	background-position: 50px 90px 0px 50px;
+	z-index: 1;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+#hero-chunk{
+	text-align: center;
+	color: #fff;
+}
+
+#hero-chunk h1{
+	font-size: 200pt;
+}
+
+#hero-chunk h3{
+margin-top: 10px;
+}
+
+/* mission statemetent */
+
+#card-1{
+	background-color: #EDEBE4;
+	margin-top:-70px;
+}
+
+#mission-statement{
+	padding: 0;
+}
+
+#mission-statement img{ 
+	margin-top: 80px;
+	margin-bottom: 80px;
+ }
+
+.row h3 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding-top: 65px;
+}
+
+
+/* about us */
+
+#about-us{
+	background-color: #193C11;
+	color: #fff;
+}
+
+#about-us h1{
+	text-align: center;
+	padding-top: 60px;
+}
+
+#about-us h2{
+	padding-bottom: 20px;
+}
+
+#aboutus-cols{
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+
+#about-us img{
+	width: 25%;
+}
+
+#card-2{
+	padding-bottom: 1px ;
+}
+
+#about-us button{
+	margin-top: 45px;
+	background-color: #F1444C;
+	border:none;
+}
+
+/* products on homepage */
+
+#products h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#card-3 img{
+	width: 80%;
+}
+
+#white {
+	padding-left: 200px;
+	margin-bottom: 30px;
+}
+
+#pink{
+	padding-left: 0px;
+	padding-right: 70px;
+	margin-bottom: 30px;
+}
+
+#blue{
+	padding-top: 100px;
+}
+
+#orange{
+	padding-top: 100px;
+	padding-left: 210px;
+}
+
+#card-3{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#pink2{
+	padding-left: 0px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+#products button  {
+	background-color: #F1444C;
+	border:none;
+	margin-top: 10px;
+}
+
+#products p{
+	padding-top: 10px; 
+}
+
+
+
+/* scents for everyone page */
+
+#scents-everyone{
+	background-color: #EDEBE4;;
+	color: black;
+}
+
+#scents-everyone h1{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#scents-cols{
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+#scents-everyone .row img{
+		width:80%;
+}
+
+
+
+#card-4{
+	padding-bottom: 40px;
+}
+
+
+
+/* suscribe now section */
+
+#card-5{
+	margin-top: 70px;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-bottom: 60px;
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: white;
+	color: #fff;
+	border-radius: 20px;
+	border: 1px solid grey;
+}
+
+#newlettertext{
+	padding: 0px;
+}
+
+#card-5 h2{
+	background-color: #193C11;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#card-5 p {
+	background-color: #193C11;
+	padding-bottom: 40px;
+
+}
+
+#subbox{
+	margin-top: 50px;
+}
+
+#subbox input{
+border-radius: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#subbutton {
+	background-color: #F1444C;
+	border-color: #F1444C;
+	color: #fff;
+}
+
+
+
+
+/* about us Hero page */
+
+#hero2 {
+	background-color: #EDEBE4;
+	height: 90vh;
+	padding-top: 60px;
+	z-index: 1;
+	background-attachment: fixed;
+}
+
+#hero-chunk2{
+	text-align: center;
+	color: black;
+}
+
+#hero-chunk2 h1{
+	margin-top: 80px;
+	font-size: 80pt;
+}
+
+#hero-chunk2 p{
+padding-left:130px; 
+padding-right:130px;
+margin-top: 20px;
+}
+
+/* about us quote section */
+
+#quote {
+	margin-top:-170px;
+	position: relative;
+	background-image: url("../photos/aboutpainting.png");
+	background-size: 100%;
+	height: 105vh;
+	padding-top: 0px;
+	background-position: right bottom;
+	z-index: 3;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+.top-left1 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  margin-right: 700px;
+
+}
+
+/* sustainably powered section */
+#card-12{
+	background-color: #193C11;
+	margin-top:0px;
+	color: #fff;
+}
+
+#mission-statement2{
+	padding: 0;
+}
+
+#mission-statement2 img{ 
+	margin-top: 90px;
+	margin-bottom: 80px;
+ }
+
+ #mission-statement2 h1{
+ 	margin-top: 90px;
+ 	padding-bottom: 20px;
+ }
+
+.row h3 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding-top: 65px;
+}
+
+/* about founders section */
+
+#foundercard img{
+	width:60%;	
+	border-radius: 20px;
+	border: 0.1px solid grey;
+	margin-top: 80px;
+	margin-bottom: 120px;
+	margin-left:150px; 
+}
+
+#foundercard h1{
+	margin-top: 120px;
+	margin-left: 20px;
+}
+
+#foundercard p{
+	margin-right: 150px;
+	margin-left: 20px;
+}
+
+
+
+/* product 1 section */
+
+#white-1 .row {
+	padding-top: 100px; 
+}
+
+#white-1 img{
+	padding-left: 40px;
+	width: 90%;
+}
+
+#card {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 5px;
+    margin-right: -40px;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+	border: 1px solid black;
+    transition: 0.6s ease-out;
+    text-align: center
+     }
+
+#productdes p{
+	margin-top: 0px;
+	display: inline-block;
+	padding-right: 50px;
+	margin-left: 52px;
+}
+
+
+#white-1 h1{
+	margin-bottom: 0px;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+#white-1 button{
+	margin-top: 25px;
+	margin-left: 50px;
+	border-radius: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 12px;
+	padding-bottom:12px;
+	background-color: #F1444C;
+	border:none;
+}
+
+
+
+/* product information section */
+
+#quote-2 {
+	margin-top:-10px;
+	position: relative;
+	background-image: url("../photos/aboutpainting.png");
+	background-size: 100%;
+	height: 100vh;
+	padding-top: 0px;
+	background-position: right bottom;
+	z-index: 3;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+.top-left2 {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  padding-left: 60px;
+  padding-right: 700px;
+}
+
+#quote-2 p{
+	padding-right: 600px; 
+	margin-top: 100px;
+}
+ 
+ .line {
+    border-bottom: 1px solid black;
+    margin-top: 18px;
+    width: 55%;
+}
+
+#sec-1 h4 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#sec-1 p {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+} 
+
+#sec-2 h4{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#sec-2 p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/* Footer styles and rules */
+
+footer {
+	background-color: #193C11;
+	color: #fff;
+	position: relative;
+	z-index: 8;
+	margin-top:-20px;
+}
+
+footer h4 {
+	padding: 2rem;
+	font-size: 18px;
+	font-family: Playfair display;
+}
+
+#partners {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0 25%;
+}
+
+#partners ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ul img {
+	width: 20%;
+}
+
+footer li {
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+#foot-links {
+	margin-top: 40px;
+}
+
+#foot-links li:first-child {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+#foot-links ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#foot-links li {
+	text-align: left;
+}
+
+#foot-links img {
+	max-width: 70px;
+}
+
+#socials {
+	display: flex;
+	flex-direction: row;
+}
+
+#legal {
+	text-align: right;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#legal span {
+	margin-left: 30px;
+}
+
+#bottom {
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 40px;
+}
+
+
+
+
+/* media  */
+
+@media only screen and (max-width: 768px){
+
+h1 {
+	font-family: Playfair display;
+	font-size: 44px;
+	margin: 1;
+}
+
+h2 {
+	font-family: Playfair display;
+	font-size: 26px;
+	margin: 0;
+}
+
+h3 {
+	font-family: Playfair display;
+	font-size: 18pt;
+	font-weight: 400;
+	margin: 0;
+}
+
+h4{
+	font-family: SF Pro;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+p {
+	font-family: SF Pro;
+	font-size: 14px;
+	font-weight: 340;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	height: 100px;
+}
+
+/* homepage */
+
+#logo a {
+	padding: 0.5rem;
+	margin-left: 200px
+}
+
+#hero-chunk h1{
+	font-size: 100pt;
+	margin-top: 50px;
+}
+
+#hero-chunk h3{
+margin-top: 10px;
+}
+
+#card-1{
+	margin-top:-260px;
+}
+
+#mission-statement img{ 
+	margin-top: 100px;
+	margin-bottom: 80px;
+ }
+
+.row h3 {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	padding-top: 65px;
+}
+
+/* products on homepage */
+
+#products h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#card-3 img{
+	width: 100%;
+}
+
+#white {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 0px;
+}
+
+#pink{
+	padding-left: 0px;
+	padding-top: 60px;
+	padding-right: 0px;
+	margin-bottom: 40px;
+
+}
+
+#blue{
+	padding-top: 30px;
+	padding-left: 55px;
+}
+
+#orange{
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+#card-3{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#pink2{
+	padding-left: 0px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* suscribe now section */
+
+#card-5{
+	margin-top: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: white;
+	color: #fff;
+	border-radius: 20px;
+	border: 1px solid grey;
+}
+
+#newlettertext{
+	padding: 0px;
+}
+
+#card-5 h2{
+	background-color: #193C11;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#card-5 p {
+	background-color: #193C11;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+
+}
+
+#subbox input{
+border-radius: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* scents for everyone page */
+
+#scents-everyone{
+	background-color: #EDEBE4;;
+	color: black;
+}
+
+#scents-everyone h1{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#scents-cols{
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+#scents-everyone .row img{
+		width:100%;
+		padding-left: 0px;
+		padding-right: 0px;
+}
+
+
+
+/* about us page */
+
+#hero2 {
+	padding-top: 40px;
+}
+
+#hero-chunk2 h1{
+	margin-top: 80px;
+	font-size: 52pt;
+}
+
+#hero-chunk2 p{
+padding-left:50px; 
+padding-right:50px;
+margin-top: 20px;
+}
+
+#quote {
+	margin-top:-470px;
+	background-size: 100%;
+	padding-top: 0px;
+	background-position: right bottom;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+.top-left1 {
+  position: absolute;
+  top: 442px;
+  left: 45px;
+  margin-right: 200px;
+  font-size: 16px;
+
+}
+
+/* sustainably powered section */
+
+#card-12{
+	background-color: #193C11;
+	margin-top:0px;
+	color: #fff;
+}
+
+#mission-statement2 img{ 
+	margin-top: 60px;
+	margin-bottom: 80px;
+ }
+
+ #mission-statement2 h1{
+ 	margin-top: 60px;
+ 	padding-bottom: 20px;
+ }
+
+ #mission-statement2 p{
+ 	margin-bottom: 40px;
+ }
+
+/* about founders section */
+
+#foundercard img{
+	width:60%;	
+	border-radius: 20px;
+	border: 0.1px solid grey;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	margin-left:100px; 
+}
+
+#foundercard h1{
+	margin-top: 0px;
+	margin-left: 150px;
+}
+
+#foundercard p{
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+
+
+
+/* product 1 section */
+
+#white-1 .row {
+	padding-top: 100px; 
+}
+
+#white-1 img{
+	padding-left: 0px;
+	width: 100%;
+}
+
+#card {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    margin-left: 16px;
+    margin-top: 20px;
+    padding-top: 5px;
+    margin-right: -10px;
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+	border: 1px solid black;
+    transition: 0.6s ease-out;
+    text-align: center
+     }
+
+#productdes p{
+	margin-top: 0px;
+	display: inline-block;
+	padding-right: 50px;
+	margin-left: 20px;
+}
+
+
+#white-1 h1{
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#white-1 button{
+	margin-top: 25px;
+	margin-left: 16px;
+	border-radius: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 12px;
+	padding-bottom:12px;
+	background-color: #F1444C;
+	border:none;
+	margin-bottom: 10px;
+}
+
+
+
+
+/* product information section */
+
+#quote-2 {
+	margin-top:-10px;
+	position: relative;
+	background-image: url("../photos/aboutpainting.png");
+	background-size: 100%;
+	height: 100vh;
+	padding-top: 0px;
+	background-position: bottom right;
+	z-index: 3;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+.top-left2 {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+#quote-2 p{
+	padding-right: 60px; 
+	margin-top: 88px;
+}
+ 
+ .line {
+    border-bottom: 1px solid black;
+    margin-top: 18px;
+    width: 90%;
+}
+
+#sec-1 h4 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#sec-1 p {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+
+} 
+
+#sec-2 h4{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#sec-2 p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	  padding-right: 200px;
+}
+
+ul img {
+	width: 40%;
+}
+
+#partners {
+	padding: 0 20%;
+}
+
+}
+
+
+
+
+
+
+
